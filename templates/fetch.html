@@ -1,0 +1,15 @@
+{% extends 'base.html'  %}
+
+{%block content %}
+     <h1>{%block title%}Get requested data{%endblock%}</h1>
+     <form method="GET" >
+        <p>
+            <label for="id">ID</label>
+            <input type="number" name="id"
+                   placeholder="UserID">
+            </input>
+        </p>
+    </form>
+    
+
+{%endblock %}

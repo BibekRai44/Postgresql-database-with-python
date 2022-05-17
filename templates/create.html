@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Add a New programming language {% endblock %}</h1>
+
+    <form method="post" action="/create/">
+        <p>
+            <label for="id">ID</label>
+            <input type="number" name="id"
+                   placeholder="UserID">
+            </input>
+        </p>
+
+        <p>
+            <label for="name">Programming language user</label>
+            <input type="text" name="name"
+                   placeholder="user">
+            </input>
+        </p>
+
+        <p>
+            <label for="planguage">Programming Language</label>
+            <input type="text" name="planguage"
+                   placeholder="programming language">
+            </input>
+        </p>
+        <p>
+        <label for="info">Programming language info</label>
+        <br>
+        <textarea name="info"
+                  placeholder="info"
+                  rows="15"
+                  cols="60"
+                  ></textarea>
+        </p>
+
+        
+        <p>
+            <button type="submit">Submit</button>
+        </p>
+        
+    </form>
+{% endblock %}
