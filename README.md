@@ -27,4 +27,34 @@ Here I have also done postgresql database mangement with flask.
 ![image4](https://user-images.githubusercontent.com/60976347/168773744-b5901fc4-9867-4bb4-873a-b3656afb0faf.PNG)
 
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`Psychopg2` module
+
+`python`
+
+`PostgreSQl Database`
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Bibekkun/Postgresql-database-with-python.git
+  ```
+Go to the project directory
+
+```bash
+   cd Postgresql-database-with-python
+```
+```bash
+   python init_db.py
+```
+
+All Done!
+
+
+
 THANKS.
