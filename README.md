@@ -49,8 +49,14 @@ Go to the project directory
 ```bash
    cd Postgresql-database-with-python
 ```
+To setup Database
 ```bash
    python init_db.py
+```
+
+To run server
+```bash
+   python app.py
 ```
 
 All Done!
